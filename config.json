@@ -1,1 +1,30 @@
+{
+    "pools":
+        [{
+            "name": "ASIA-VIPOR-1",
+            "url": "stratum+tcp://sg.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 0
+        },
+        {
+            "name": "ASIA-VIPOR-2",
+            "url": "stratum+tcp://sg.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 0
+        },
+        {
+            "name": "ASIA-VIPOR-3",
+            "url": "stratum+tcp://sg.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 1
+        }],
 
+    "user": "RUV6bbWa5QkkvTtUPoUAwcHJFEUkUceamM.abao",
+    "pass": "",
+    "algo": "verus",
+    "threads": 12,
+    "cpu-priority": 1,
+    "retry-pause": 1,
+    "api-allow": "192.168.0.0/16",
+    "api-bind": "0.0.0.0:4068"
+}
